@@ -1,0 +1,125 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Gotham Rounded', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right,#b2fefa, #0ed2f7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 90%;
+    width: 1200px;
+    /* background-color: white; */
+    background: linear-gradient(to right,#b2fefa, #0ed2f7);
+    box-shadow: 0 5px 10px black;
+    border-radius: 5px;
+  }
+  
+  .content {
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+  .header {
+    background-color: rgb(5, 5, 5);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+  }
+
+  .header-details{
+      color: white;
+      justify-content: left;
+      padding: 40px;
+      font-size: 2rem;
+  }
+  
+  
+  
+  .general-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .status {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .location{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  
+  .detail-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .detail.bordered {
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+  }
+  
+  .detail .title {
+    font-size: 2rem;
+    flex-grow: 1;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .cord-value {
+ 
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .wind-value {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .temp-value {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .city-search-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .city-search {
+    margin-top: 40px;
+    font-size: 2rem;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+ 
